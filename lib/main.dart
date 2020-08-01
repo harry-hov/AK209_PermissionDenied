@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:charts_flutter/flutter.dart' as charts;
+import 'package:sih2020/about.dart';
 import 'package:sih2020/list.dart';
 
 void main() => runApp(MyApp());
@@ -50,10 +51,6 @@ class _MyHomePageState extends State<MyHomePage> {
         child: ListView(
           children: <Widget>[
             ListTile(
-              leading: Icon(Icons.home),
-              title: Text("Home"),
-            ),
-            ListTile(
               leading: Icon(Icons.call_to_action),
               title: Text("Test API"),
               onTap: () {
@@ -68,6 +65,14 @@ class _MyHomePageState extends State<MyHomePage> {
             ListTile(
               leading: Icon(Icons.info),
               title: Text("About"),
+              onTap: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (context) => About(),
+                  ),
+                );
+              },
             ),
           ],
         ),
