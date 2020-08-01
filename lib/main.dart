@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:charts_flutter/flutter.dart' as charts;
+import 'package:sih2020/list.dart';
 
 void main() => runApp(MyApp());
 
@@ -35,8 +36,7 @@ class _MyHomePageState extends State<MyHomePage> {
       count = 2;
       grid1 = 2.9;
       grid2 = 1.8;
-    }
-    else {
+    } else {
       count = 1;
       grid1 = 1.8;
       grid2 = 2.3;
@@ -55,7 +55,15 @@ class _MyHomePageState extends State<MyHomePage> {
             ),
             ListTile(
               leading: Icon(Icons.call_to_action),
-              title: Text("Stats"),
+              title: Text("Test API"),
+              onTap: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (context) => UserList(),
+                  ),
+                );
+              },
             ),
             ListTile(
               leading: Icon(Icons.info),
@@ -64,41 +72,39 @@ class _MyHomePageState extends State<MyHomePage> {
           ],
         ),
       ),
-      body: 
-            
-      SingleChildScrollView(
+      body: SingleChildScrollView(
         child: Column(
           children: <Widget>[
             Container(
               height: 10,
             ),
             Container(
-              child: GridView.count(
-                primary: false,
-                crossAxisCount: 1,
-                padding: const EdgeInsets.all(10.0),
-                childAspectRatio: grid1,
-                mainAxisSpacing: 2.0,
-                crossAxisSpacing: 2.0,
-                children: <Widget>[
-                  Container(
-                    child: Card(
-                      elevation:4,
-                      margin: EdgeInsets.fromLTRB(8.0, 8.0, 8.0, 8.0),
-                      shape: RoundedRectangleBorder(
-                        borderRadius: BorderRadius.circular(10.0),
-                      ),
-                      color: Colors.white,  
-                      child: Container(
-                        padding: EdgeInsets.fromLTRB(30.0,20.0,20.0,30.0),
-                         child: TimeSeriesRangeAnnotationMarginChart.withSampleData(),
-                      ),
+                child: GridView.count(
+              primary: false,
+              crossAxisCount: 1,
+              padding: const EdgeInsets.all(10.0),
+              childAspectRatio: grid1,
+              mainAxisSpacing: 2.0,
+              crossAxisSpacing: 2.0,
+              children: <Widget>[
+                Container(
+                  child: Card(
+                    elevation: 4,
+                    margin: EdgeInsets.fromLTRB(8.0, 8.0, 8.0, 8.0),
+                    shape: RoundedRectangleBorder(
+                      borderRadius: BorderRadius.circular(10.0),
+                    ),
+                    color: Colors.white,
+                    child: Container(
+                      padding: EdgeInsets.fromLTRB(30.0, 20.0, 20.0, 30.0),
+                      child:
+                          TimeSeriesRangeAnnotationMarginChart.withSampleData(),
                     ),
                   ),
-                ],
-                shrinkWrap: true,
-              )
-            ),
+                ),
+              ],
+              shrinkWrap: true,
+            )),
             Container(
               height: 10,
             ),
@@ -120,8 +126,8 @@ class _MyHomePageState extends State<MyHomePage> {
                       ),
                       color: Colors.white,
                       child: Container(
-                        padding: EdgeInsets.fromLTRB(30.0,20.0,20.0,30.0),
-                         child: DonutAutoLabelChart.withSampleData(),
+                        padding: EdgeInsets.fromLTRB(30.0, 20.0, 20.0, 30.0),
+                        child: DonutAutoLabelChart.withSampleData(),
                       ),
                     ),
                   );
@@ -152,10 +158,7 @@ class _MyHomePageState extends State<MyHomePage> {
       ),
     );
   }
-  
 }
-
-
 
 class TimeSeriesRangeAnnotationMarginChart extends StatelessWidget {
   final List<charts.Series> seriesList;
@@ -170,14 +173,12 @@ class TimeSeriesRangeAnnotationMarginChart extends StatelessWidget {
     );
   }
 
-
   @override
   Widget build(BuildContext context) {
-    return new charts.TimeSeriesChart(
-      seriesList,
-      animate: animate,
-      defaultRenderer: new charts.LineRendererConfig(includePoints: true),
-      layoutConfig: new charts.LayoutConfig(
+    return new charts.TimeSeriesChart(seriesList,
+        animate: animate,
+        defaultRenderer: new charts.LineRendererConfig(includePoints: true),
+        layoutConfig: new charts.LayoutConfig(
             leftMarginSpec: new charts.MarginSpec.fixedPixel(60),
             topMarginSpec: new charts.MarginSpec.fixedPixel(20),
             rightMarginSpec: new charts.MarginSpec.fixedPixel(60),
@@ -191,29 +192,30 @@ class TimeSeriesRangeAnnotationMarginChart extends StatelessWidget {
                 labelAnchor: charts.AnnotationLabelAnchor.start,
                 color: charts.MaterialPalette.gray.shade300),
           ], defaultLabelPosition: charts.AnnotationLabelPosition.margin),
-
           new charts.LinePointHighlighter(
-            showHorizontalFollowLine:
-              charts.LinePointHighlighterFollowLineType.none,
-            showVerticalFollowLine:
-              charts.LinePointHighlighterFollowLineType.nearest),
-          new charts.SelectNearest(eventTrigger: charts.SelectionTrigger.tapAndDrag),
-        
+              showHorizontalFollowLine:
+                  charts.LinePointHighlighterFollowLineType.none,
+              showVerticalFollowLine:
+                  charts.LinePointHighlighterFollowLineType.nearest),
+          new charts.SelectNearest(
+              eventTrigger: charts.SelectionTrigger.tapAndDrag),
           new charts.ChartTitle('Real-Time Log Graph',
-            behaviorPosition: charts.BehaviorPosition.top,
-            titleOutsideJustification: charts.OutsideJustification.start,
-            innerPadding: 20),
+              behaviorPosition: charts.BehaviorPosition.top,
+              titleOutsideJustification: charts.OutsideJustification.start,
+              innerPadding: 20),
           new charts.ChartTitle('Date',
-            behaviorPosition: charts.BehaviorPosition.bottom,
-            titleOutsideJustification:
-                charts.OutsideJustification.middleDrawArea,innerPadding: 20),
+              behaviorPosition: charts.BehaviorPosition.bottom,
+              titleOutsideJustification:
+                  charts.OutsideJustification.middleDrawArea,
+              innerPadding: 20),
           new charts.ChartTitle('Number of HTTP requests',
-            behaviorPosition: charts.BehaviorPosition.start,
-            titleOutsideJustification:
-                charts.OutsideJustification.middleDrawArea,outerPadding: 70),
-        
+              behaviorPosition: charts.BehaviorPosition.start,
+              titleOutsideJustification:
+                  charts.OutsideJustification.middleDrawArea,
+              outerPadding: 70),
         ]);
   }
+
   static List<charts.Series<Data, DateTime>> _createSampleData() {
     final data = [
       new Data(new DateTime(2017, 9, 19), 5),
@@ -225,7 +227,7 @@ class TimeSeriesRangeAnnotationMarginChart extends StatelessWidget {
     return [
       new charts.Series<Data, DateTime>(
         id: 'noOfReq',
-       // colorFn: (_, __) => charts.MaterialPalette.black,
+        // colorFn: (_, __) => charts.MaterialPalette.black,
         domainFn: (Data noOf, _) => noOf.date,
         measureFn: (Data noOf, _) => noOf.reqNo,
         data: data,
@@ -247,27 +249,27 @@ class DonutAutoLabelChart extends StatelessWidget {
     );
   }
 
-
   @override
   Widget build(BuildContext context) {
     return new charts.PieChart(seriesList,
         animate: animate,
         behaviors: [
-        new charts.DatumLegend(
-          position: charts.BehaviorPosition.end,
-          horizontalFirst: false,
-          cellPadding: new EdgeInsets.only(bottom: 4.0),
-          showMeasures: true,
-          legendDefaultMeasure: charts.LegendDefaultMeasure.firstValue,
-          measureFormatter: (num value) {
-            return value == null ? '-' : '${value}Requests';
-          },
-        ),
-      ],
+          new charts.DatumLegend(
+            position: charts.BehaviorPosition.end,
+            horizontalFirst: false,
+            cellPadding: new EdgeInsets.only(bottom: 4.0),
+            showMeasures: true,
+            legendDefaultMeasure: charts.LegendDefaultMeasure.firstValue,
+            measureFormatter: (num value) {
+              return value == null ? '-' : '${value}Requests';
+            },
+          ),
+        ],
         defaultRenderer: new charts.ArcRendererConfig(
             arcWidth: 50,
             arcRendererDecorators: [new charts.ArcLabelDecorator()]));
   }
+
   static List<charts.Series<PieData, String>> _createSampleData() {
     final data = [
       new PieData('127.0.0.1', 190742),
@@ -279,7 +281,7 @@ class DonutAutoLabelChart extends StatelessWidget {
     return [
       new charts.Series<PieData, String>(
         id: 'noOfReq',
-       // colorFn: (_, __) => charts.MaterialPalette.blue,
+        // colorFn: (_, __) => charts.MaterialPalette.blue,
         domainFn: (PieData noOfReq, _) => noOfReq.clientIP,
         measureFn: (PieData noOfReq, _) => noOfReq.noOfReq,
         data: data,
@@ -291,8 +293,8 @@ class DonutAutoLabelChart extends StatelessWidget {
 
 class Data {
   Data(this.date, this.reqNo);
-    final DateTime date;
-    final int reqNo;
+  final DateTime date;
+  final int reqNo;
 }
 
 class PieData {
@@ -300,4 +302,3 @@ class PieData {
   final int noOfReq;
   PieData(this.clientIP, this.noOfReq);
 }
-
