@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:sih2020/about.dart';
 import 'package:sih2020/list.dart';
 import 'package:sih2020/showLog.dart';
+import 'package:sih2020/tempTest.dart';
 
 void main() => runApp(MyApp());
 
@@ -13,9 +14,10 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Server Logs | Dashboard',
       theme: ThemeData(
-        primarySwatch: Colors.blue,
+        primarySwatch: Colors.teal,
       ),
-      home: ShowLog(title: 'Server Logs | Dashboard'),
+      home: TempTest(title: 'Server Logs | Dashboard'),
+      //home: ShowLog(title: 'Server Logs | Dashboard'),
       //home: MyHomePage(title: 'Server Logs | Dashboard'),
     );
   }
