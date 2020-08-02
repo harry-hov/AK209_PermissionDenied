@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:charts_flutter/flutter.dart' as charts;
 import 'package:sih2020/about.dart';
 import 'package:sih2020/list.dart';
+import 'package:sih2020/showLog.dart';
 
 void main() => runApp(MyApp());
 
@@ -15,7 +15,8 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: MyHomePage(title: 'Server Logs | Dashboard'),
+      home: ShowLog(title: 'Server Logs | Dashboard'),
+      //home: MyHomePage(title: 'Server Logs | Dashboard'),
     );
   }
 }
