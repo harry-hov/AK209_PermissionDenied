@@ -34,45 +34,52 @@ class _ShowLogState extends State<ShowLog> {
   Widget build(BuildContext context) {
     Color cl;
     return Scaffold(
-      appBar: AppBar(
-        title: Text(widget.title),
-      ),
-      body: Container(
-        child: FutureBuilder<List<dynamic>>(
-          future: fetchUsers(),
-          builder: (BuildContext context, AsyncSnapshot snapshot) {
-            if (snapshot.hasData) {
-              print(_pid(snapshot.data[0]));
-              return ListView.builder(
-                  padding: EdgeInsets.all(8),
-                  itemCount: snapshot.data.length,
-                  itemBuilder: (BuildContext context, int index) {
-                    if (_status(snapshot.data[index]) == "Anomaly")
-                      cl = Colors.red;
-                    else
-                      cl = Colors.green;
-                    return Card(
-                      child: Column(
-                        children: <Widget>[
-                          ListTile(
-                            leading: CircleAvatar(
-                              radius: 10,
-                              backgroundColor: cl,
-                            ),
-                            title: Text(_component(snapshot.data[index])),
-                            subtitle: Text(
-                                "Status: " + _status(snapshot.data[index])),
-                            trailing: Text(_pid(snapshot.data[index])),
-                          )
-                        ],
-                      ),
-                    );
-                  });
-            } else {
-              return Center(child: CircularProgressIndicator());
-            }
-          },
-        ),
+      body: ListView(
+        children: <Widget>[
+          Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: <Widget>[
+              Container(
+                child: FutureBuilder<List<dynamic>>(
+                  future: fetchUsers(),
+                  builder: (BuildContext context, AsyncSnapshot snapshot) {
+                    if (snapshot.hasData) {
+                      print(_pid(snapshot.data[0]));
+                      return ListView.builder(
+                          padding: EdgeInsets.all(8),
+                          itemCount: snapshot.data.length,
+                          itemBuilder: (BuildContext context, int index) {
+                            if (_status(snapshot.data[index]) == "Anomaly")
+                              cl = Colors.red;
+                            else
+                              cl = Colors.green;
+                            return Card(
+                              child: Column(
+                                children: <Widget>[
+                                  ListTile(
+                                    leading: CircleAvatar(
+                                      radius: 10,
+                                      backgroundColor: cl,
+                                    ),
+                                    title:
+                                        Text(_component(snapshot.data[index])),
+                                    subtitle: Text("Status: " +
+                                        _status(snapshot.data[index])),
+                                    trailing: Text(_pid(snapshot.data[index])),
+                                  )
+                                ],
+                              ),
+                            );
+                          });
+                    } else {
+                      return Center(child: CircularProgressIndicator());
+                    }
+                  },
+                ),
+              ),
+            ],
+          ),
+        ],
       ),
     );
   }
