@@ -10,8 +10,8 @@
     "prefer_related_applications": false,
     "icons": [
         {
-            "src": "icons/Icon-192.png",
-            "sizes": "192x192",
+            "src": "assets/images/bemlicon.png",
+            "sizes": "1200x444",
             "type": "image/png"
         },
         {
