@@ -1,0 +1,286 @@
+Date,Time,Pid,Level,Content,EventId,EventTemplate
+81109,203602,156,INFO,"printFreezingDisplayLogsopening app wtoken = AppWindowToken{9f4ef63 token=Token{a64f992 ActivityRecord{de9231d u0 com.tencent.qt.qtl/.activity.info.NewsDetailXmlActivity t761}}}, allDrawn= false, startingDisplayed =  false, startingMoved =  false, isRelaunching =  false",E100,"printFreezingDisplayLogsopening app wtoken = AppWindowToken{<*> token=Token{<*> ActivityRecord{<*> u0 <*>/.<*> t761}}}, allDrawn= false, startingDisplayed =  false, startingMoved =  false, isRelaunching =  false"
+81109,203602,156,INFO,"acquire lock=233570404, flags=0x1, tag=""View Lock"", name=com.android.systemui, ws=null, uid=10037, pid=2227",E10,"acquire lock=<*>, flags=<*>, tag=""<*>"", name=<*>, ws=<*>, uid=<*>, pid=<*>"
+81109,203602,156,INFO,"ready=true,policy=3,wakefulness=1,wksummary=0x23,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=false,manual=38,auto=-1,adj=0.0userId=0",E103,"ready=true,policy=<*>,wakefulness=<*>,wksummary=<*>,uasummary=<*>,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=false,manual=<*>,auto=<*>,adj=<*>.0userId=<*>"
+81109,203602,156,INFO,Skipping AppWindowToken{df0798e token=Token{78af589 ActivityRecord{3b04890 u0 com.tencent.qt.qtl/com.tencent.video.player.activity.PlayerActivity t761}}} -- going to hide,E131,Skipping AppWindowToken{<*> token=Token{<*> ActivityRecord{<*> u0 <*>}}} -- going to hide
+81109,203602,166,INFO,visible is system.time.showampm,E165,visible is <*>
+81109,203602,167,INFO,mVisiblity.getValue is false,E82,mVisiblity.getValue is false
+81109,203602,169,INFO,visible is system.charge.show,E165,visible is <*>
+81109,203602,170,INFO,mVisiblity.getValue is false,E82,mVisiblity.getValue is false
+81109,203602,170,INFO,visible is system.call.count gt 0,E166,visible is <*> gt <*>
+81109,203602,170,INFO,mVisiblity.getValue is false,E82,mVisiblity.getValue is false
+81109,203602,172,INFO,visible is system.message.count gt 0,E166,visible is <*> gt <*>
+81109,203602,172,INFO,mVisiblity.getValue is false,E82,mVisiblity.getValue is false
+81109,203602,173,INFO,visible is system.ownerinfo.show,E165,visible is <*>
+81109,203602,173,INFO,mVisiblity.getValue is false,E82,mVisiblity.getValue is false
+81109,203602,177,INFO,"release:lock=233570404, flg=0x0, tag=""View Lock"", name=com.android.systemui"", ws=null, uid=10037, pid=2227",E108,"release:lock=<*>, flg=<*>, tag=""<*>"", name=<*>, ws=<*>, uid=<*>, pid=<*>"
+81109,203602,177,INFO,"ready=true,policy=3,wakefulness=1,wksummary=0x23,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=false,manual=38,auto=-1,adj=0.0userId=0",E103,"ready=true,policy=<*>,wakefulness=<*>,wksummary=<*>,uasummary=<*>,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=false,manual=<*>,auto=<*>,adj=<*>.0userId=<*>"
+81109,203602,191,INFO,Skipping AppWindowToken{df0798e token=Token{78af589 ActivityRecord{3b04890 u0 com.tencent.qt.qtl/com.tencent.video.player.activity.PlayerActivity t761}}} -- going to hide,E131,Skipping AppWindowToken{<*> token=Token{<*> ActivityRecord{<*> u0 <*>}}} -- going to hide
+81109,203602,26,INFO,"updateClipping isOverlap:false, getTopPadding=333.0, Translation=-24.0",E155,"updateClipping isOverlap:false, getTopPadding=<*>.<*>, Translation=<*>.<*>"
+81109,203602,27,INFO,updateDimmedActivatedHideSensitive overlap:false,E157,updateDimmedActivatedHideSensitive overlap:false
+81109,203602,27,INFO,getRunningAppProcesses: caller 10113 does not hold REAL_GET_TASKS; limiting output,E59,getRunningAppProcesses: caller <*> does not hold REAL_GET_TASKS; limiting output
+81109,203602,28,INFO,"release:lock=189667585, flg=0x0, tag=""*launch*"", name=android"", ws=WorkSource{10113}, uid=1000, pid=1702",E108,"release:lock=<*>, flg=<*>, tag=""<*>"", name=<*>, ws=<*>, uid=<*>, pid=<*>"
+81109,203602,28,INFO,"ready=true,policy=3,wakefulness=1,wksummary=0x23,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=false,manual=38,auto=-1,adj=0.0userId=0",E103,"ready=true,policy=<*>,wakefulness=<*>,wksummary=<*>,uasummary=<*>,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=false,manual=<*>,auto=<*>,adj=<*>.0userId=<*>"
+81109,203602,28,INFO,"setSystemUiVisibility vis=40000500 mask=ffffffff oldVal=508 newVal=40000500 diff=40000008 fullscreenStackVis=0 dockedStackVis=0, fullscreenStackBounds=Rect(0, 0 - 720, 1280), dockedStackBounds=Rect(0, 0 - 0, 0)",E126,"setSystemUiVisibility vis=<*> mask=<*> oldVal=<*> newVal=<*> diff=<*> fullscreenStackVis=<*> dockedStackVis=<*>, fullscreenStackBounds=Rect(<*>, <*> - <*>, <*>), dockedStackBounds=Rect(<*>, <*> - <*>, <*>)"
+81109,203602,28,INFO,cancelAutohide,E27,cancelAutohide
+81109,203602,28,INFO,"notifyUiVisibilityChanged:vis=0x40000500, SystemUiVisibility=0x40000500",E84,"notifyUiVisibilityChanged:vis=<*>, SystemUiVisibility=<*>"
+81109,203602,29,INFO,Destroying surface Surface(name=SurfaceView - com.tencent.qt.qtl/com.tencent.video.player.activity.PlayerActivity) called by com.android.server.wm.WindowStateAnimator.destroyDeferredSurfaceLocked:942 com.android.server.wm.WindowManagerService.performDeferredDestroyWindow:3407 com.android.server.wm.Session.performDeferredDestroy:225 android.view.IWindowSession$Stub.onTransact:398 com.android.server.wm.Session.onTransact:136 android.os.Binder.execTransact:565 <bottom of call stack> <bottom of call stack>,E41,Destroying surface Surface(name=<*>) called by <*>
+81109,203602,29,INFO,Destroying surface Surface(name=com.tencent.qt.qtl/com.tencent.video.player.activity.PlayerActivity) called by com.android.server.wm.WindowStateAnimator.destroySurface:2060 com.android.server.wm.WindowStateAnimator.destroySurfaceLocked:913 com.android.server.wm.WindowState.destroyOrSaveSurface:2201 com.android.server.wm.WindowManagerService.tryStartExitingAnimation:3299 com.android.server.wm.WindowManagerService.relayoutWindow:3179 com.android.server.wm.Session.relayout:215 android.view.IWindowSession$Stub.onTransact:286 com.android.server.wm.Session.onTransact:136,E41,Destroying surface Surface(name=<*>) called by <*>
+81109,203602,30,INFO,"release:lock=62617001, flg=0x0, tag=""WindowManager"", name=android"", ws=WorkSource{10113}, uid=1000, pid=1702",E108,"release:lock=<*>, flg=<*>, tag=""<*>"", name=<*>, ws=<*>, uid=<*>, pid=<*>"
+81109,203602,30,INFO,"userActivityNoUpdateLocked: eventTime=261843648, event=0, flags=0x1, uid=1000",E164,"userActivityNoUpdateLocked: eventTime=<*>, event=<*>, flags=<*>, uid=<*>"
+81109,203602,30,INFO,"ready=true,policy=3,wakefulness=1,wksummary=0x1,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=false,manual=38,auto=-1,adj=0.0userId=0",E103,"ready=true,policy=<*>,wakefulness=<*>,wksummary=<*>,uasummary=<*>,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=false,manual=<*>,auto=<*>,adj=<*>.0userId=<*>"
+81109,203602,31,INFO,"orientation change is complete, call stopFreezingDisplayLocked",E96,"orientation change is complete, call stopFreezingDisplayLocked"
+81109,203602,31,INFO,Screen frozen for +1s0ms due to Window{ca98d5 u0 com.tencent.qt.qtl/com.tencent.qt.qtl.activity.info.NewsDetailXmlActivity},E118,Screen frozen for <*> due to Window{<*> u0 <*>.<*>}
+81109,203602,31,INFO,startAnimation begin,E143,startAnimation begin
+81109,203602,33,INFO,startAnimation end,E144,startAnimation end
+81109,203602,33,INFO,"release:lock=226887582, flg=0x0, tag=""SCREEN_FROZEN"", name=android"", ws=null, uid=1000, pid=1702",E108,"release:lock=<*>, flg=<*>, tag=""<*>"", name=<*>, ws=<*>, uid=<*>, pid=<*>"
+81109,203602,33,INFO,"ready=true,policy=3,wakefulness=1,wksummary=0x1,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=false,manual=38,auto=-1,adj=0.0userId=0",E103,"ready=true,policy=<*>,wakefulness=<*>,wksummary=<*>,uasummary=<*>,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=false,manual=<*>,auto=<*>,adj=<*>.0userId=<*>"
+81109,203602,33,INFO,remove(PendingIntent{19abed0: PendingIntentRecord{a485420 com.tencent.qt.qtl broadcastIntent}}) changed bounds; rebatching,E110,remove(PendingIntent{<*>: PendingIntentRecord{<*> <*> broadcastIntent}}) changed bounds; rebatching
+81109,203602,34,INFO,"rotationForOrientationLw(orient=1, last=0); user=0 USER_ROTATION_LOCKED",E114,"rotationForOrientationLw(orient=<*>, last=<*>); user=<*> USER_ROTATION_LOCKED"
+81109,203602,35,INFO,"Application requested orientation 1, got rotation 0 which has compatible metrics",E22,"Application requested orientation <*>, got rotation <*> which has compatible metrics"
+81109,203602,35,INFO,"acquire lock=166121161, flags=0x1, tag=""RILJ_ACK_WL"", name=com.android.phone, ws=null, uid=1001, pid=2626",E10,"acquire lock=<*>, flags=<*>, tag=""<*>"", name=<*>, ws=<*>, uid=<*>, pid=<*>"
+81109,203602,35,INFO,"ready=true,policy=3,wakefulness=1,wksummary=0x1,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=false,manual=38,auto=-1,adj=0.0userId=0",E103,"ready=true,policy=<*>,wakefulness=<*>,wksummary=<*>,uasummary=<*>,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=false,manual=<*>,auto=<*>,adj=<*>.0userId=<*>"
+81109,203602,35,INFO,"ready=true,policy=3,wakefulness=1,wksummary=0x1,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=false,manual=38,auto=-1,adj=0.0userId=0",E103,"ready=true,policy=<*>,wakefulness=<*>,wksummary=<*>,uasummary=<*>,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=false,manual=<*>,auto=<*>,adj=<*>.0userId=<*>"
+81109,203602,35,INFO,"ready=true,policy=3,wakefulness=1,wksummary=0x1,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=false,manual=38,auto=-1,adj=0.0userId=0",E103,"ready=true,policy=<*>,wakefulness=<*>,wksummary=<*>,uasummary=<*>,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=false,manual=<*>,auto=<*>,adj=<*>.0userId=<*>"
+81109,203602,35,INFO,"ready=true,policy=3,wakefulness=1,wksummary=0x1,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=false,manual=38,auto=-1,adj=0.0userId=0",E103,"ready=true,policy=<*>,wakefulness=<*>,wksummary=<*>,uasummary=<*>,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=false,manual=<*>,auto=<*>,adj=<*>.0userId=<*>"
+81109,203603,149,INFO,"ready=true,policy=3,wakefulness=1,wksummary=0x1,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=false,manual=38,auto=-1,adj=0.0userId=0",E103,"ready=true,policy=<*>,wakefulness=<*>,wksummary=<*>,uasummary=<*>,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=false,manual=<*>,auto=<*>,adj=<*>.0userId=<*>"
+81109,203603,149,INFO,"ready=true,policy=3,wakefulness=1,wksummary=0x1,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=false,manual=38,auto=-1,adj=0.0userId=0",E103,"ready=true,policy=<*>,wakefulness=<*>,wksummary=<*>,uasummary=<*>,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=false,manual=<*>,auto=<*>,adj=<*>.0userId=<*>"
+81109,203603,150,INFO,shouldBlockLocation running ...,E130,shouldBlockLocation running ...
+81109,203603,150,INFO,shouldBlockLocation  ret:false,E128,shouldBlockLocation  ret:false
+81109,203603,151,INFO,shouldBlockLocation running ...,E130,shouldBlockLocation running ...
+81109,203603,151,INFO,shouldBlockLocation  ret:false,E128,shouldBlockLocation  ret:false
+81109,203603,151,INFO,getNeighboringCellInfo calling app is com.amap.android.ams,E54,getNeighboringCellInfo calling app is <*>
+81109,203603,151,INFO,shouldBlockLocation running ...,E130,shouldBlockLocation running ...
+81109,203603,151,INFO,shouldBlockLocation  ret:false,E128,shouldBlockLocation  ret:false
+81109,203603,151,INFO,"ready=true,policy=3,wakefulness=1,wksummary=0x1,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=false,manual=38,auto=-1,adj=0.0userId=0",E103,"ready=true,policy=<*>,wakefulness=<*>,wksummary=<*>,uasummary=<*>,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=false,manual=<*>,auto=<*>,adj=<*>.0userId=<*>"
+81109,203603,152,INFO,"ready=true,policy=3,wakefulness=1,wksummary=0x1,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=false,manual=38,auto=-1,adj=0.0userId=0",E103,"ready=true,policy=<*>,wakefulness=<*>,wksummary=<*>,uasummary=<*>,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=false,manual=<*>,auto=<*>,adj=<*>.0userId=<*>"
+81109,203603,152,INFO,shouldBlockLocation running ...,E130,shouldBlockLocation running ...
+81109,203603,153,INFO,shouldBlockLocation  ret:false,E128,shouldBlockLocation  ret:false
+81109,203603,153,INFO,"ready=true,policy=3,wakefulness=1,wksummary=0x1,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=false,manual=38,auto=-1,adj=0.0userId=0",E103,"ready=true,policy=<*>,wakefulness=<*>,wksummary=<*>,uasummary=<*>,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=false,manual=<*>,auto=<*>,adj=<*>.0userId=<*>"
+81109,203603,153,INFO,"ready=true,policy=3,wakefulness=1,wksummary=0x1,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=false,manual=38,auto=-1,adj=0.0userId=0",E103,"ready=true,policy=<*>,wakefulness=<*>,wksummary=<*>,uasummary=<*>,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=false,manual=<*>,auto=<*>,adj=<*>.0userId=<*>"
+81109,203603,153,INFO,"ready=true,policy=3,wakefulness=1,wksummary=0x1,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=false,manual=38,auto=-1,adj=0.0userId=0",E103,"ready=true,policy=<*>,wakefulness=<*>,wksummary=<*>,uasummary=<*>,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=false,manual=<*>,auto=<*>,adj=<*>.0userId=<*>"
+81109,203603,154,INFO,"ready=true,policy=3,wakefulness=1,wksummary=0x1,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=false,manual=38,auto=-1,adj=0.0userId=0",E103,"ready=true,policy=<*>,wakefulness=<*>,wksummary=<*>,uasummary=<*>,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=false,manual=<*>,auto=<*>,adj=<*>.0userId=<*>"
+81109,203603,154,INFO,"release:lock=166121161, flg=0x0, tag=""RILJ_ACK_WL"", name=com.android.phone"", ws=null, uid=1001, pid=2626",E108,"release:lock=<*>, flg=<*>, tag=""<*>"", name=<*>, ws=<*>, uid=<*>, pid=<*>"
+81109,203603,154,INFO,"ready=true,policy=3,wakefulness=1,wksummary=0x1,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=false,manual=38,auto=-1,adj=0.0userId=0",E103,"ready=true,policy=<*>,wakefulness=<*>,wksummary=<*>,uasummary=<*>,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=false,manual=<*>,auto=<*>,adj=<*>.0userId=<*>"
+81109,203603,154,INFO,shouldBlockLocation running ...,E130,shouldBlockLocation running ...
+81109,203603,155,INFO,shouldBlockLocation  ret:false,E128,shouldBlockLocation  ret:false
+81109,203603,155,INFO,"release:lock=264232593, flg=0x0, tag=""AudioMix"", name=audioserver"", ws=null, uid=1041, pid=0",E108,"release:lock=<*>, flg=<*>, tag=""<*>"", name=<*>, ws=<*>, uid=<*>, pid=<*>"
+81109,203603,156,INFO,"ready=true,policy=3,wakefulness=1,wksummary=0x0,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=false,manual=38,auto=-1,adj=0.0userId=0",E103,"ready=true,policy=<*>,wakefulness=<*>,wksummary=<*>,uasummary=<*>,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=false,manual=<*>,auto=<*>,adj=<*>.0userId=<*>"
+81109,203603,156,INFO,"Releasing suspend blocker ""PowerManagerService.WakeLocks"".",E109,"Releasing suspend blocker ""PowerManagerService.WakeLocks""."
+81109,203603,156,INFO,HBM brightnessIn =38,E64,HBM brightnessIn =<*>
+81109,203603,160,INFO,HBM brightnessOut =38,E65,HBM brightnessOut =<*>
+81109,203603,160,INFO,"Animating brightness: target=38, rate=200",E21,"Animating brightness: target=<*>, rate=<*>"
+81109,203603,165,INFO,"userActivityNoUpdateLocked: eventTime=261849942, event=2, flags=0x0, uid=1000",E164,"userActivityNoUpdateLocked: eventTime=<*>, event=<*>, flags=<*>, uid=<*>"
+81109,203603,165,INFO,"ready=true,policy=3,wakefulness=1,wksummary=0x0,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=false,manual=38,auto=-1,adj=0.0userId=0",E103,"ready=true,policy=<*>,wakefulness=<*>,wksummary=<*>,uasummary=<*>,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=false,manual=<*>,auto=<*>,adj=<*>.0userId=<*>"
+81109,203603,166,INFO,suspendAutohide,E148,suspendAutohide
+81109,203603,167,INFO,interceptKeyTq keycode=4 interactive=true keyguardActive=false policyFlags=2b000002 down true canceled false,E69,interceptKeyTq keycode=<*> interactive=true keyguardActive=false policyFlags=<*> down true canceled false
+81109,203603,168,INFO,"interceptKeyBeforeQueueing: key 4 , result : 1",E67,"interceptKeyBeforeQueueing: key <*> , result : <*>"
+81109,203603,168,INFO,"userActivityNoUpdateLocked: eventTime=261849949, event=1, flags=0x0, uid=1000",E164,"userActivityNoUpdateLocked: eventTime=<*>, event=<*>, flags=<*>, uid=<*>"
+81109,203603,169,INFO,"ready=true,policy=3,wakefulness=1,wksummary=0x0,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=false,manual=38,auto=-1,adj=0.0userId=0",E103,"ready=true,policy=<*>,wakefulness=<*>,wksummary=<*>,uasummary=<*>,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=false,manual=<*>,auto=<*>,adj=<*>.0userId=<*>"
+81109,203603,169,INFO,resumeSuspendedAutohide,E113,resumeSuspendedAutohide
+81109,203603,170,INFO,interceptKeyTq keycode=4 interactive=true keyguardActive=false policyFlags=2b000002 down false canceled false,E68,interceptKeyTq keycode=<*> interactive=true keyguardActive=false policyFlags=<*> down false canceled false
+81109,203603,171,INFO,"interceptKeyBeforeQueueing: key 4 , result : 1",E67,"interceptKeyBeforeQueueing: key <*> , result : <*>"
+81109,203603,171,INFO,querySoundEffectsEnabled...,E102,querySoundEffectsEnabled...
+81109,203603,175,INFO,"acquire lock=189667585, flags=0x1, tag=""*launch*"", name=android, ws=WorkSource{10113}, uid=1000, pid=1702",E10,"acquire lock=<*>, flags=<*>, tag=""<*>"", name=<*>, ws=<*>, uid=<*>, pid=<*>"
+81109,203603,176,INFO,"ready=true,policy=3,wakefulness=1,wksummary=0x1,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=false,manual=38,auto=-1,adj=0.0userId=0",E103,"ready=true,policy=<*>,wakefulness=<*>,wksummary=<*>,uasummary=<*>,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=false,manual=<*>,auto=<*>,adj=<*>.0userId=<*>"
+81109,203603,177,INFO,"Acquiring suspend blocker ""PowerManagerService.WakeLocks"".",E11,"Acquiring suspend blocker ""PowerManagerService.WakeLocks""."
+81109,203603,178,INFO,Skipping AppWindowToken{9f4ef63 token=Token{a64f992 ActivityRecord{de9231d u0 com.tencent.qt.qtl/.activity.info.NewsDetailXmlActivity t761}}} -- going to hide,E131,Skipping AppWindowToken{<*> token=Token{<*> ActivityRecord{<*> u0 <*>}}} -- going to hide
+81109,203603,178,INFO,"setSystemUiVisibility vis=508 mask=ffffffff oldVal=40000500 newVal=508 diff=40000008 fullscreenStackVis=0 dockedStackVis=0, fullscreenStackBounds=Rect(0, 0 - 720, 1280), dockedStackBounds=Rect(0, 0 - 0, 0)",E126,"setSystemUiVisibility vis=<*> mask=<*> oldVal=<*> newVal=<*> diff=<*> fullscreenStackVis=<*> dockedStackVis=<*>, fullscreenStackBounds=Rect(<*>, <*> - <*>, <*>), dockedStackBounds=Rect(<*>, <*> - <*>, <*>)"
+81109,203603,180,INFO,cancelAutohide,E27,cancelAutohide
+81109,203603,200,INFO,"notifyUiVisibilityChanged:vis=0x508, SystemUiVisibility=0x508",E84,"notifyUiVisibilityChanged:vis=<*>, SystemUiVisibility=<*>"
+81109,203603,205,INFO,Bad activity token: android.os.BinderProxy@2bd79ce,E25,Bad activity token: <*>@<*>
+81109,203603,205,INFO,java.lang.ClassCastException: android.os.BinderProxy cannot be cast to com.android.server.am.ActivityRecord$Token,E7,<*>: <*> cannot be cast to <*>$Token
+81109,203603,26,INFO,Skipping AppWindowToken{9f4ef63 token=Token{a64f992 ActivityRecord{de9231d u0 com.tencent.qt.qtl/.activity.info.NewsDetailXmlActivity t761}}} -- going to hide,E131,Skipping AppWindowToken{<*> token=Token{<*> ActivityRecord{<*> u0 <*>}}} -- going to hide
+81109,203603,26,INFO,"release:lock=189667585, flg=0x0, tag=""*launch*"", name=android"", ws=WorkSource{10113}, uid=1000, pid=1702",E108,"release:lock=<*>, flg=<*>, tag=""<*>"", name=<*>, ws=<*>, uid=<*>, pid=<*>"
+81109,203603,26,INFO,"ready=true,policy=3,wakefulness=1,wksummary=0x0,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=false,manual=38,auto=-1,adj=0.0userId=0",E103,"ready=true,policy=<*>,wakefulness=<*>,wksummary=<*>,uasummary=<*>,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=false,manual=<*>,auto=<*>,adj=<*>.0userId=<*>"
+81109,203603,27,INFO,"Releasing suspend blocker ""PowerManagerService.WakeLocks"".",E109,"Releasing suspend blocker ""PowerManagerService.WakeLocks""."
+81109,203603,27,INFO,"setSystemUiVisibility vis=40000500 mask=ffffffff oldVal=508 newVal=40000500 diff=40000008 fullscreenStackVis=0 dockedStackVis=0, fullscreenStackBounds=Rect(0, 0 - 720, 1280), dockedStackBounds=Rect(0, 0 - 0, 0)",E126,"setSystemUiVisibility vis=<*> mask=<*> oldVal=<*> newVal=<*> diff=<*> fullscreenStackVis=<*> dockedStackVis=<*>, fullscreenStackBounds=Rect(<*>, <*> - <*>, <*>), dockedStackBounds=Rect(<*>, <*> - <*>, <*>)"
+81109,203603,28,INFO,cancelAutohide,E27,cancelAutohide
+81109,203603,28,INFO,"notifyUiVisibilityChanged:vis=0x40000500, SystemUiVisibility=0x40000500",E84,"notifyUiVisibilityChanged:vis=<*>, SystemUiVisibility=<*>"
+81109,203603,28,INFO,"userActivityNoUpdateLocked: eventTime=261850777, event=2, flags=0x0, uid=1000",E164,"userActivityNoUpdateLocked: eventTime=<*>, event=<*>, flags=<*>, uid=<*>"
+81109,203603,29,INFO,"ready=true,policy=3,wakefulness=1,wksummary=0x0,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=false,manual=38,auto=-1,adj=0.0userId=0",E103,"ready=true,policy=<*>,wakefulness=<*>,wksummary=<*>,uasummary=<*>,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=false,manual=<*>,auto=<*>,adj=<*>.0userId=<*>"
+81109,203603,30,INFO,suspendAutohide,E148,suspendAutohide
+81109,203603,30,INFO,suspendAutohide,E148,suspendAutohide
+81109,203603,30,INFO,"onTouchEvent::0, x=271.0, y=14.0",E93,"onTouchEvent::<*>, x=<*>.<*>, y=<*>.<*>"
+81109,203603,30,INFO,schedulePeek,E115,schedulePeek
+81109,203603,31,INFO,getRingtonePlayer...,E58,getRingtonePlayer...
+81109,203603,31,INFO,disable: < expand ICONS* alerts SYSTEM_INFO* back home recent clock navigationbar search quick_settings >,E43,disable: < expand ICONS* alerts SYSTEM_INFO* back home recent clock navigationbar search quick_settings >
+81109,203603,31,INFO,suspendAutohide,E148,suspendAutohide
+81109,203603,32,INFO,"updateLightsLocked,mInCall =false,mScreenOn = true,ledNotification == null?true",E161,"updateLightsLocked,mInCall =false,mScreenOn = true,ledNotification == null?true"
+81109,203603,34,INFO,"updateLightsLocked,turn off notificationLight",E162,"updateLightsLocked,turn off notificationLight"
+81109,203603,34,INFO,getRingtonePlayer...,E58,getRingtonePlayer...
+81109,203603,35,INFO,"updateLightsLocked,mInCall =false,mScreenOn = true,ledNotification == null?true",E161,"updateLightsLocked,mInCall =false,mScreenOn = true,ledNotification == null?true"
+81109,203603,35,INFO,"updateLightsLocked,turn off notificationLight",E162,"updateLightsLocked,turn off notificationLight"
+81109,203604,147,INFO,"overlapAmount:196.0, previousNotificationEnd:0.0, newYTranslation:-196.0, location:4, i:0, getTopPadding:333.0, getLocationOnScreen():-529",E97,"overlapAmount:<*>.<*>, previousNotificationEnd:<*>.<*>, newYTranslation:<*>.<*>, location:<*>, i:<*>, getTopPadding:<*>.<*>, getLocationOnScreen():<*>"
+81109,203604,147,INFO,"state.clipTopAmount:180, i:0",E145,"state.clipTopAmount:<*>, i:<*>"
+81109,203604,148,INFO,"updateClipping isOverlap:true, getTopPadding=333.0, Translation=-529.0",E156,"updateClipping isOverlap:true, getTopPadding=<*>.<*>, Translation=<*>.<*>"
+81109,203604,148,INFO,updateDimmedActivatedHideSensitive overlap:true,E158,updateDimmedActivatedHideSensitive overlap:true
+81109,203604,148,INFO,getRunningAppProcesses: caller 10113 does not hold REAL_GET_TASKS; limiting output,E59,getRunningAppProcesses: caller <*> does not hold REAL_GET_TASKS; limiting output
+81109,203604,148,INFO,"setSystemUiVisibility vis=40000600 mask=ffffffff oldVal=40000500 newVal=40000600 diff=300 fullscreenStackVis=0 dockedStackVis=0, fullscreenStackBounds=Rect(0, 0 - 720, 1280), dockedStackBounds=Rect(0, 0 - 0, 0)",E126,"setSystemUiVisibility vis=<*> mask=<*> oldVal=<*> newVal=<*> diff=<*> fullscreenStackVis=<*> dockedStackVis=<*>, fullscreenStackBounds=Rect(<*>, <*> - <*>, <*>), dockedStackBounds=Rect(<*>, <*> - <*>, <*>)"
+81109,203604,148,INFO,"notifyUiVisibilityChanged:vis=0x40000600, SystemUiVisibility=0x40000600",E84,"notifyUiVisibilityChanged:vis=<*>, SystemUiVisibility=<*>"
+81109,203604,148,INFO,suspendAutohide,E148,suspendAutohide
+81109,203604,149,INFO,onExpandingStarted,E86,onExpandingStarted
+81109,203604,149,INFO,suspendAutohide,E148,suspendAutohide
+81109,203604,150,INFO,onTrackingStarted,E94,onTrackingStarted
+81109,203604,150,INFO,Destroying surface Surface(name=com.tencent.qt.qtl/com.tencent.qt.qtl.activity.info.NewsDetailXmlActivity) called by com.android.server.wm.WindowStateAnimator.destroySurface:2060 com.android.server.wm.WindowStateAnimator.destroySurfaceLocked:913 com.android.server.wm.WindowState.removeLocked:1554 com.android.server.wm.WindowManagerService.removeWindowInnerLocked:2739 com.android.server.wm.WindowManagerService.removeWindowInnerLocked:2702 com.android.server.wm.WindowManagerService.removeWindowLocked:2691 com.android.server.wm.WindowManagerService.removeWindowLocked:2560 com.android.server.wm.WindowManagerService.removeWindow:2555,E41,Destroying surface Surface(name=<*>) called by <*>
+81109,203604,150,INFO,suspendAutohide,E148,suspendAutohide
+81109,203604,150,INFO,"overlapAmount:146.0, previousNotificationEnd:0.0, newYTranslation:-146.0, location:4, i:0, getTopPadding:333.0, getLocationOnScreen():-479",E97,"overlapAmount:<*>.<*>, previousNotificationEnd:<*>.<*>, newYTranslation:<*>.<*>, location:<*>, i:<*>, getTopPadding:<*>.<*>, getLocationOnScreen():<*>"
+81109,203604,151,INFO,"state.clipTopAmount:130, i:0",E145,"state.clipTopAmount:<*>, i:<*>"
+81109,203604,151,INFO,"updateClipping isOverlap:true, getTopPadding=333.0, Translation=-479.0",E156,"updateClipping isOverlap:true, getTopPadding=<*>.<*>, Translation=<*>.<*>"
+81109,203604,152,INFO,updateDimmedActivatedHideSensitive overlap:true,E158,updateDimmedActivatedHideSensitive overlap:true
+81109,203604,152,INFO,suspendAutohide,E148,suspendAutohide
+81109,203604,152,INFO,"overlapAmount:119.0, previousNotificationEnd:0.0, newYTranslation:-119.0, location:4, i:0, getTopPadding:333.0, getLocationOnScreen():-452",E97,"overlapAmount:<*>.<*>, previousNotificationEnd:<*>.<*>, newYTranslation:<*>.<*>, location:<*>, i:<*>, getTopPadding:<*>.<*>, getLocationOnScreen():<*>"
+81109,203604,152,INFO,"state.clipTopAmount:103, i:0",E145,"state.clipTopAmount:<*>, i:<*>"
+81109,203604,153,INFO,"updateClipping isOverlap:true, getTopPadding=333.0, Translation=-452.0",E156,"updateClipping isOverlap:true, getTopPadding=<*>.<*>, Translation=<*>.<*>"
+81109,203604,153,INFO,updateDimmedActivatedHideSensitive overlap:true,E158,updateDimmedActivatedHideSensitive overlap:true
+81109,203604,153,INFO,suspendAutohide,E148,suspendAutohide
+81109,203604,153,INFO,"overlapAmount:85.0, previousNotificationEnd:0.0, newYTranslation:-85.0, location:4, i:0, getTopPadding:333.0, getLocationOnScreen():-418",E97,"overlapAmount:<*>.<*>, previousNotificationEnd:<*>.<*>, newYTranslation:<*>.<*>, location:<*>, i:<*>, getTopPadding:<*>.<*>, getLocationOnScreen():<*>"
+81109,203604,154,INFO,"state.clipTopAmount:69, i:0",E145,"state.clipTopAmount:<*>, i:<*>"
+81109,203604,154,INFO,"updateClipping isOverlap:true, getTopPadding=333.0, Translation=-418.0",E156,"updateClipping isOverlap:true, getTopPadding=<*>.<*>, Translation=<*>.<*>"
+81109,203604,154,INFO,updateDimmedActivatedHideSensitive overlap:true,E158,updateDimmedActivatedHideSensitive overlap:true
+81109,203604,154,INFO,suspendAutohide,E148,suspendAutohide
+81109,203604,154,INFO,"overlapAmount:46.0, previousNotificationEnd:0.0, newYTranslation:-46.0, location:4, i:0, getTopPadding:333.0, getLocationOnScreen():-379",E97,"overlapAmount:<*>.<*>, previousNotificationEnd:<*>.<*>, newYTranslation:<*>.<*>, location:<*>, i:<*>, getTopPadding:<*>.<*>, getLocationOnScreen():<*>"
+81109,203604,154,INFO,"state.clipTopAmount:30, i:0",E145,"state.clipTopAmount:<*>, i:<*>"
+81109,203604,154,INFO,"updateClipping isOverlap:true, getTopPadding=333.0, Translation=-379.0",E156,"updateClipping isOverlap:true, getTopPadding=<*>.<*>, Translation=<*>.<*>"
+81109,203604,154,INFO,updateDimmedActivatedHideSensitive overlap:true,E158,updateDimmedActivatedHideSensitive overlap:true
+81109,203604,156,INFO,suspendAutohide,E148,suspendAutohide
+81109,203604,165,INFO,"overlapAmount:5.0, previousNotificationEnd:0.0, newYTranslation:-5.0, location:4, i:0, getTopPadding:333.0, getLocationOnScreen():-338",E97,"overlapAmount:<*>.<*>, previousNotificationEnd:<*>.<*>, newYTranslation:<*>.<*>, location:<*>, i:<*>, getTopPadding:<*>.<*>, getLocationOnScreen():<*>"
+81109,203604,168,INFO,"state.clipTopAmount:-1, i:0",E145,"state.clipTopAmount:<*>, i:<*>"
+81109,203604,168,INFO,"updateClipping isOverlap:true, getTopPadding=333.0, Translation=-338.0",E156,"updateClipping isOverlap:true, getTopPadding=<*>.<*>, Translation=<*>.<*>"
+81109,203604,168,INFO,updateDimmedActivatedHideSensitive overlap:true,E158,updateDimmedActivatedHideSensitive overlap:true
+81109,203604,169,INFO,suspendAutohide,E148,suspendAutohide
+81109,203604,169,INFO,"updateClipping isOverlap:false, getTopPadding=333.0, Translation=-293.0",E155,"updateClipping isOverlap:false, getTopPadding=<*>.<*>, Translation=<*>.<*>"
+81109,203604,170,INFO,updateDimmedActivatedHideSensitive overlap:false,E157,updateDimmedActivatedHideSensitive overlap:false
+81109,203604,170,INFO,suspendAutohide,E148,suspendAutohide
+81109,203604,170,INFO,"updateClipping isOverlap:false, getTopPadding=333.0, Translation=-250.0",E155,"updateClipping isOverlap:false, getTopPadding=<*>.<*>, Translation=<*>.<*>"
+81109,203604,170,INFO,updateDimmedActivatedHideSensitive overlap:false,E157,updateDimmedActivatedHideSensitive overlap:false
+81109,203604,170,INFO,suspendAutohide,E148,suspendAutohide
+81109,203604,171,INFO,suspendAutohide,E148,suspendAutohide
+81109,203604,172,INFO,"onTouchEvent::1, x=296.0, y=327.0",E93,"onTouchEvent::<*>, x=<*>.<*>, y=<*>.<*>"
+81109,203604,173,INFO,cancelPeek: false,E34,cancelPeek: false
+81109,203604,173,INFO,"flingToHeight: vel=2849.079, expand=true, target=553.0, collapseSpeedUpFactor=1.0, expandBecauseOfFalsing=false",E48,"flingToHeight: vel=<*>.<*>, expand=true, target=<*>.<*>, collapseSpeedUpFactor=<*>.<*>, expandBecauseOfFalsing=false"
+81109,203604,173,INFO,onTrackingStopped: true,E95,onTrackingStopped: true
+81109,203604,174,INFO,"updateClipping isOverlap:false, getTopPadding=333.0, Translation=-240.0",E155,"updateClipping isOverlap:false, getTopPadding=<*>.<*>, Translation=<*>.<*>"
+81109,203604,180,INFO,updateDimmedActivatedHideSensitive overlap:false,E157,updateDimmedActivatedHideSensitive overlap:false
+81109,203604,180,INFO,"updateClipping isOverlap:false, getTopPadding=333.0, Translation=-200.0",E155,"updateClipping isOverlap:false, getTopPadding=<*>.<*>, Translation=<*>.<*>"
+81109,203604,183,INFO,updateDimmedActivatedHideSensitive overlap:false,E157,updateDimmedActivatedHideSensitive overlap:false
+81109,203604,183,INFO,"updateClipping isOverlap:false, getTopPadding=333.0, Translation=-168.0",E155,"updateClipping isOverlap:false, getTopPadding=<*>.<*>, Translation=<*>.<*>"
+81109,203604,198,INFO,updateDimmedActivatedHideSensitive overlap:false,E157,updateDimmedActivatedHideSensitive overlap:false
+81109,203604,200,INFO,"updateClipping isOverlap:false, getTopPadding=333.0, Translation=-139.0",E155,"updateClipping isOverlap:false, getTopPadding=<*>.<*>, Translation=<*>.<*>"
+81109,203604,203,INFO,updateDimmedActivatedHideSensitive overlap:false,E157,updateDimmedActivatedHideSensitive overlap:false
+81109,203604,203,INFO,"updateClipping isOverlap:false, getTopPadding=333.0, Translation=-113.0",E155,"updateClipping isOverlap:false, getTopPadding=<*>.<*>, Translation=<*>.<*>"
+81109,203604,235,INFO,updateDimmedActivatedHideSensitive overlap:false,E157,updateDimmedActivatedHideSensitive overlap:false
+81109,203604,26,INFO,"updateClipping isOverlap:false, getTopPadding=333.0, Translation=-90.0",E155,"updateClipping isOverlap:false, getTopPadding=<*>.<*>, Translation=<*>.<*>"
+81109,203604,27,INFO,updateDimmedActivatedHideSensitive overlap:false,E157,updateDimmedActivatedHideSensitive overlap:false
+81109,203604,27,INFO,"updateClipping isOverlap:false, getTopPadding=333.0, Translation=-72.0",E155,"updateClipping isOverlap:false, getTopPadding=<*>.<*>, Translation=<*>.<*>"
+81109,203604,28,INFO,updateDimmedActivatedHideSensitive overlap:false,E157,updateDimmedActivatedHideSensitive overlap:false
+81109,203604,28,INFO,"updateClipping isOverlap:false, getTopPadding=333.0, Translation=-55.0",E155,"updateClipping isOverlap:false, getTopPadding=<*>.<*>, Translation=<*>.<*>"
+81109,203604,28,INFO,updateDimmedActivatedHideSensitive overlap:false,E157,updateDimmedActivatedHideSensitive overlap:false
+81109,203604,29,INFO,"updateClipping isOverlap:false, getTopPadding=333.0, Translation=-40.0",E155,"updateClipping isOverlap:false, getTopPadding=<*>.<*>, Translation=<*>.<*>"
+81109,203604,29,INFO,updateDimmedActivatedHideSensitive overlap:false,E157,updateDimmedActivatedHideSensitive overlap:false
+81109,203604,30,INFO,"updateClipping isOverlap:false, getTopPadding=333.0, Translation=-29.0",E155,"updateClipping isOverlap:false, getTopPadding=<*>.<*>, Translation=<*>.<*>"
+81109,203604,30,INFO,updateDimmedActivatedHideSensitive overlap:false,E157,updateDimmedActivatedHideSensitive overlap:false
+81109,203604,30,INFO,"updateClipping isOverlap:false, getTopPadding=333.0, Translation=-19.0",E155,"updateClipping isOverlap:false, getTopPadding=<*>.<*>, Translation=<*>.<*>"
+81109,203604,31,INFO,updateDimmedActivatedHideSensitive overlap:false,E157,updateDimmedActivatedHideSensitive overlap:false
+81109,203604,32,INFO,"updateClipping isOverlap:false, getTopPadding=333.0, Translation=-11.0",E155,"updateClipping isOverlap:false, getTopPadding=<*>.<*>, Translation=<*>.<*>"
+81109,203604,33,INFO,updateDimmedActivatedHideSensitive overlap:false,E157,updateDimmedActivatedHideSensitive overlap:false
+81109,203604,33,INFO,"updateClipping isOverlap:false, getTopPadding=333.0, Translation=-6.0",E155,"updateClipping isOverlap:false, getTopPadding=<*>.<*>, Translation=<*>.<*>"
+81109,203604,33,INFO,updateDimmedActivatedHideSensitive overlap:false,E157,updateDimmedActivatedHideSensitive overlap:false
+81109,203604,34,INFO,"updateClipping isOverlap:false, getTopPadding=333.0, Translation=-2.0",E155,"updateClipping isOverlap:false, getTopPadding=<*>.<*>, Translation=<*>.<*>"
+81109,203604,34,INFO,updateDimmedActivatedHideSensitive overlap:false,E157,updateDimmedActivatedHideSensitive overlap:false
+81109,203604,34,INFO,"updateClipping isOverlap:false, getTopPadding=333.0, Translation=-1.0",E155,"updateClipping isOverlap:false, getTopPadding=<*>.<*>, Translation=<*>.<*>"
+81109,203604,34,INFO,updateDimmedActivatedHideSensitive overlap:false,E157,updateDimmedActivatedHideSensitive overlap:false
+81109,203604,35,INFO,onExpandingFinished,E85,onExpandingFinished
+81109,203604,35,INFO,"updateClipping isOverlap:false, getTopPadding=333.0, Translation=0.0",E155,"updateClipping isOverlap:false, getTopPadding=<*>.<*>, Translation=<*>.<*>"
+81109,203605,149,INFO,updateDimmedActivatedHideSensitive overlap:false,E157,updateDimmedActivatedHideSensitive overlap:false
+81109,203605,149,INFO,Sending non-protected broadcast com.android.systemui.statusbar.visible.change from system 2227:com.android.systemui/u0a37 pkg com.android.systemui,E121,Sending non-protected broadcast <*> from system <*>:<*> pkg <*>
+81109,203605,149,INFO,logNotificationVisibilityChanges runInThread start,E77,logNotificationVisibilityChanges runInThread start
+81109,203605,149,INFO,onNotificationVisibilityChanged called,E91,onNotificationVisibilityChanged called
+81109,203605,150,INFO,logNotificationVisibilityChanges runInThread over,E76,logNotificationVisibilityChanges runInThread over
+81109,203605,150,INFO,isSimPinSecure mSimDatas is null or empty,E73,isSimPinSecure mSimDatas is null or empty
+81109,203605,151,INFO,registerCallback not in UI.,E107,registerCallback not in UI.
+81109,203605,151,INFO,android.util.AndroidRuntimeException: Must execute in UI,E8,<*>: Must execute in UI
+81109,203605,151,INFO,*** register callback for com.android.systemui.statusbar.policy.KeyguardMonitor@712d093,E1,*** register callback for <*>@<*>
+81109,203605,151,INFO,registerCallback not in UI.,E107,registerCallback not in UI.
+81109,203605,152,INFO,android.util.AndroidRuntimeException: Must execute in UI,E8,<*>: Must execute in UI
+81109,203605,152,INFO,*** unregister callback for null,E3,*** unregister callback for null
+81109,203605,152,INFO,[PhoneIntfMgr] getDataEnabled: subId=1 phoneId=1,E5,[PhoneIntfMgr] getDataEnabled: subId=<*> phoneId=<*>
+81109,203605,153,INFO,[PhoneIntfMgr] getDataEnabled: subId=1 retVal=true,E6,[PhoneIntfMgr] getDataEnabled: subId=<*> retVal=true
+81109,203605,153,INFO,"userActivityNoUpdateLocked: eventTime=261851646, event=2, flags=0x0, uid=1000",E164,"userActivityNoUpdateLocked: eventTime=<*>, event=<*>, flags=<*>, uid=<*>"
+81109,203605,153,INFO,"ready=true,policy=3,wakefulness=1,wksummary=0x0,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=false,manual=38,auto=-1,adj=0.0userId=0",E103,"ready=true,policy=<*>,wakefulness=<*>,wksummary=<*>,uasummary=<*>,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=false,manual=<*>,auto=<*>,adj=<*>.0userId=<*>"
+81109,203605,153,INFO,"onInterceptTouchEvent MotionEvent { action=ACTION_DOWN, actionButton=0, id[0]=0, x[0]=317.0, y[0]=419.0, toolType[0]=TOOL_TYPE_FINGER, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=261851646, downTime=261851646, deviceId=3, source=0x1002 }, mBlockTouches=false",E87,"onInterceptTouchEvent MotionEvent { action=ACTION_DOWN, actionButton=<*>, id[<*>]=<*>, x[<*>]=<*>.<*>, y[<*>]=<*>.<*>, toolType[<*>]=TOOL_TYPE_FINGER, buttonState=<*>, metaState=<*>, flags=<*>, edgeFlags=<*>, pointerCount=<*>, historySize=<*>, eventTime=<*>, downTime=<*>, deviceId=<*>, source=<*> }, mBlockTouches=false"
+81109,203605,154,INFO,"updateClipping isOverlap:false, getTopPadding=333.0, Translation=0.0",E155,"updateClipping isOverlap:false, getTopPadding=<*>.<*>, Translation=<*>.<*>"
+81109,203605,154,INFO,updateDimmedActivatedHideSensitive overlap:false,E157,updateDimmedActivatedHideSensitive overlap:false
+81109,203605,155,INFO,"onInterceptTouchEvent MotionEvent { action=ACTION_UP, actionButton=0, id[0]=0, x[0]=317.0, y[0]=419.0, toolType[0]=TOOL_TYPE_FINGER, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=261851713, downTime=261851646, deviceId=3, source=0x1002 }, mBlockTouches=false",E88,"onInterceptTouchEvent MotionEvent { action=ACTION_UP, actionButton=<*>, id[<*>]=<*>, x[<*>]=<*>.<*>, y[<*>]=<*>.<*>, toolType[<*>]=TOOL_TYPE_FINGER, buttonState=<*>, metaState=<*>, flags=<*>, edgeFlags=<*>, pointerCount=<*>, historySize=<*>, eventTime=<*>, downTime=<*>, deviceId=<*>, source=<*> }, mBlockTouches=false"
+81109,203605,155,INFO,playSoundEffect   effectType: 0,E99,playSoundEffect   effectType: <*>
+81109,203605,155,INFO,querySoundEffectsEnabled...,E102,querySoundEffectsEnabled...
+81109,203605,155,INFO,"animateCollapsePanels:flags=2, force=true, delayed=true, mExpandedVisible=true",E20,"animateCollapsePanels:flags=<*>, force=true, delayed=true, mExpandedVisible=true"
+81109,203605,155,INFO,onExpandingStarted,E86,onExpandingStarted
+81109,203605,155,INFO,logNotificationVisibilityChanges runInThread start,E77,logNotificationVisibilityChanges runInThread start
+81109,203605,155,INFO,onNotificationVisibilityChanged called,E91,onNotificationVisibilityChanged called
+81109,203605,155,INFO,logNotificationVisibilityChanges runInThread over,E76,logNotificationVisibilityChanges runInThread over
+81109,203605,155,INFO,START u0 {act=com.tencent.mobileqq.action.MAINACTIVITY flg=0x14000000 cmp=com.tencent.mobileqq/.activity.SplashActivity (has extras)} from uid 10111 on display 0,E140,START u0 {act=<*> flg=<*> cmp=<*> (has extras)} from uid <*> on display <*>
+81109,203605,155,INFO,"ActivityRecord info: ActivityInfo{d1c8e63 com.tencent.mobileqq.activity.SplashActivity}, euid: 0",E16,"ActivityRecord info: ActivityInfo{<*> <*>}, euid: <*>"
+81109,203605,155,INFO,"setSystemUiVisibility vis=40000500 mask=ffffffff oldVal=40000600 newVal=40000500 diff=300 fullscreenStackVis=0 dockedStackVis=0, fullscreenStackBounds=Rect(0, 0 - 720, 1280), dockedStackBounds=Rect(0, 0 - 0, 0)",E126,"setSystemUiVisibility vis=<*> mask=<*> oldVal=<*> newVal=<*> diff=<*> fullscreenStackVis=<*> dockedStackVis=<*>, fullscreenStackBounds=Rect(<*>, <*> - <*>, <*>), dockedStackBounds=Rect(<*>, <*> - <*>, <*>)"
+81109,203605,155,INFO,"notifyUiVisibilityChanged:vis=0x40000500, SystemUiVisibility=0x40000500",E84,"notifyUiVisibilityChanged:vis=<*>, SystemUiVisibility=<*>"
+81109,203605,155,INFO,"acquire lock=189667585, flags=0x1, tag=""*launch*"", name=android, ws=WorkSource{10111}, uid=1000, pid=1702",E10,"acquire lock=<*>, flags=<*>, tag=""<*>"", name=<*>, ws=<*>, uid=<*>, pid=<*>"
+81109,203605,155,INFO,"ready=true,policy=3,wakefulness=1,wksummary=0x1,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=false,manual=38,auto=-1,adj=0.0userId=0",E103,"ready=true,policy=<*>,wakefulness=<*>,wksummary=<*>,uasummary=<*>,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=false,manual=<*>,auto=<*>,adj=<*>.0userId=<*>"
+81109,203605,155,INFO,"Acquiring suspend blocker ""PowerManagerService.WakeLocks"".",E11,"Acquiring suspend blocker ""PowerManagerService.WakeLocks""."
+81109,203605,155,INFO,onNotificationClick called,E89,onNotificationClick called
+81109,203605,156,INFO,"cancelNotification,index:0",E29,"cancelNotification,index:<*>"
+81109,203605,156,INFO,"cancelNotification,cancelNotificationLocked,callingUid = 10037,callingPid = 2227",E28,"cancelNotification,cancelNotificationLocked,callingUid = <*>,callingPid = <*>"
+81109,203605,156,INFO,"cancelNotificationLocked called,tell the app,reason = 1",E30,"cancelNotificationLocked called,tell the app,reason = <*>"
+81109,203605,156,INFO,cancelNotificationLocked:0|com.tencent.mobileqq|121|null|10111,E32,cancelNotificationLocked:<*>|<*>|<*>|null|<*>
+81109,203605,157,INFO,"cancelNotificationLocked,remove =com.tencent.mobileqq",E31,"cancelNotificationLocked,remove =<*>"
+81109,203605,157,INFO,applyOptionsLocked: Unknown animationType=0,E23,applyOptionsLocked: Unknown animationType=<*>
+81109,203605,157,INFO,cancelPeek: false,E34,cancelPeek: false
+81109,203605,157,INFO,"flingToHeight: vel=0.0, expand=false, target=0.0, collapseSpeedUpFactor=1.0, expandBecauseOfFalsing=false",E47,"flingToHeight: vel=<*>.<*>, expand=false, target=<*>.<*>, collapseSpeedUpFactor=<*>.<*>, expandBecauseOfFalsing=false"
+81109,203605,158,INFO,"updateClipping isOverlap:false, getTopPadding=333.0, Translation=-6.0",E155,"updateClipping isOverlap:false, getTopPadding=<*>.<*>, Translation=<*>.<*>"
+81109,203605,158,INFO,updateDimmedActivatedHideSensitive overlap:false,E157,updateDimmedActivatedHideSensitive overlap:false
+81109,203605,160,INFO,"updateClipping isOverlap:false, getTopPadding=333.0, Translation=-21.0",E155,"updateClipping isOverlap:false, getTopPadding=<*>.<*>, Translation=<*>.<*>"
+81109,203605,160,INFO,updateDimmedActivatedHideSensitive overlap:false,E157,updateDimmedActivatedHideSensitive overlap:false
+81109,203605,165,INFO,"updateClipping isOverlap:false, getTopPadding=333.0, Translation=-43.0",E155,"updateClipping isOverlap:false, getTopPadding=<*>.<*>, Translation=<*>.<*>"
+81109,203605,168,INFO,updateDimmedActivatedHideSensitive overlap:false,E157,updateDimmedActivatedHideSensitive overlap:false
+81109,203605,168,INFO,"Taking screenshot from Surface with crop:[Rect(0, 48 - 720, 1208)], width:[432], height:[696], minLayer:[21085], maxLayer:[21085], inRotation:[false], rot:[0]",E149,"Taking screenshot from Surface with crop:[Rect(<*>, <*> - <*>, <*>)], width:[<*>], height:[<*>], minLayer:[<*>], maxLayer:[<*>], inRotation:[false], rot:[<*>]"
+81109,203605,168,INFO,"updateClipping isOverlap:false, getTopPadding=333.0, Translation=-70.0",E155,"updateClipping isOverlap:false, getTopPadding=<*>.<*>, Translation=<*>.<*>"
+81109,203605,169,INFO,updateDimmedActivatedHideSensitive overlap:false,E157,updateDimmedActivatedHideSensitive overlap:false
+81109,203605,169,INFO,"updateClipping isOverlap:false, getTopPadding=333.0, Translation=-102.0",E155,"updateClipping isOverlap:false, getTopPadding=<*>.<*>, Translation=<*>.<*>"
+81109,203605,169,INFO,updateDimmedActivatedHideSensitive overlap:false,E157,updateDimmedActivatedHideSensitive overlap:false
+81109,203605,169,INFO,"updateClipping isOverlap:false, getTopPadding=333.0, Translation=-139.0",E155,"updateClipping isOverlap:false, getTopPadding=<*>.<*>, Translation=<*>.<*>"
+81109,203605,169,INFO,updateDimmedActivatedHideSensitive overlap:false,E157,updateDimmedActivatedHideSensitive overlap:false
+81109,203605,169,INFO,Receiving block blk_-8406634885489843927 src: /10.250.10.223:52587 dest: /10.250.10.223:50010,E5,Receiving block <*> src: /<*> dest: /<*>
+81109,203605,170,INFO,Receiving block blk_-3005274241419157270 src: /10.251.125.174:49418 dest: /10.251.125.174:50010,E5,Receiving block <*> src: /<*> dest: /<*>
+81109,203605,171,INFO,Receiving block blk_913412967866641995 src: /10.251.215.192:45281 dest: /10.251.215.192:50010,E5,Receiving block <*> src: /<*> dest: /<*>
+81109,203605,173,INFO,Receiving block blk_8351002834999754342 src: /10.251.201.204:50587 dest: /10.251.201.204:50010,E5,Receiving block <*> src: /<*> dest: /<*>
+81109,203605,173,INFO,Receiving block blk_8351002834999754342 src: /10.251.201.204:53300 dest: /10.251.201.204:50010,E5,Receiving block <*> src: /<*> dest: /<*>
+81109,203605,174,INFO,Receiving block blk_2576579059491723435 src: /10.251.107.19:54625 dest: /10.251.107.19:50010,E5,Receiving block <*> src: /<*> dest: /<*>
+81109,203605,174,INFO,Receiving block blk_-65606802992611431 src: /10.251.193.175:41554 dest: /10.251.193.175:50010,E5,Receiving block <*> src: /<*> dest: /<*>
+81109,203605,174,INFO,Receiving block blk_-65606802992611431 src: /10.251.214.18:55430 dest: /10.251.214.18:50010,E5,Receiving block <*> src: /<*> dest: /<*>
+81109,203605,175,INFO,Receiving block blk_-416928069220652273 src: /10.251.43.21:42255 dest: /10.251.43.21:50010,E5,Receiving block <*> src: /<*> dest: /<*>
+81109,203605,175,INFO,Receiving block blk_6328154611956466143 src: /10.251.199.86:57519 dest: /10.251.199.86:50010,E5,Receiving block <*> src: /<*> dest: /<*>
+81109,203605,180,INFO,PacketResponder 2 for block blk_4675103097330094461 terminating,E11,PacketResponder <*> for block <*> terminating
+81109,203605,180,INFO,Received block blk_4675103097330094461 of size 67108864 from /10.251.107.19,E9,Received block <*> of size <*> from /<*>
+81109,203605,181,INFO,Receiving block blk_7299155215022858120 src: /10.251.203.129:35165 dest: /10.251.203.129:50010,E5,Receiving block <*> src: /<*> dest: /<*>
+81109,203605,183,INFO,Receiving block blk_-416928069220652273 src: /10.250.17.225:50641 dest: /10.250.17.225:50010,E5,Receiving block <*> src: /<*> dest: /<*>
+81109,203605,195,INFO,Receiving block blk_2576579059491723435 src: /10.251.107.19:48992 dest: /10.251.107.19:50010,E5,Receiving block <*> src: /<*> dest: /<*>
+81109,203605,26,INFO,BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.251.39.209:50010 is added to blk_8026466674001363449 size 67108864,E26,BLOCK* NameSystem.addStoredBlock: blockMap updated: <*> is added to <*> size <*>
+81109,203605,26,INFO,BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.251.67.225:50010 is added to blk_-7486457612086258197 size 67108864,E26,BLOCK* NameSystem.addStoredBlock: blockMap updated: <*> is added to <*> size <*>
+81109,203605,27,INFO,BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.250.17.225:50010 is added to blk_-7486457612086258197 size 67108864,E26,BLOCK* NameSystem.addStoredBlock: blockMap updated: <*> is added to <*> size <*>
+81109,203605,27,INFO,BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.251.215.70:50010 is added to blk_-1470784088028862059 size 67108864,E26,BLOCK* NameSystem.addStoredBlock: blockMap updated: <*> is added to <*> size <*>
+81109,203605,27,INFO,BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.251.29.239:50010 is added to blk_4675103097330094461 size 67108864,E26,BLOCK* NameSystem.addStoredBlock: blockMap updated: <*> is added to <*> size <*>
+81109,203605,27,INFO,BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.251.43.21:50010 is added to blk_-4667470578821022066 size 67108864,E26,BLOCK* NameSystem.addStoredBlock: blockMap updated: <*> is added to <*> size <*>
+81109,203605,27,INFO,BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.251.43.21:50010 is added to blk_8026466674001363449 size 67108864,E26,BLOCK* NameSystem.addStoredBlock: blockMap updated: <*> is added to <*> size <*>
+81109,203605,27,INFO,BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.251.91.159:50010 is added to blk_5727159100405160712 size 67108864,E26,BLOCK* NameSystem.addStoredBlock: blockMap updated: <*> is added to <*> size <*>
+81109,203605,27,INFO,BLOCK* NameSystem.allocateBlock: /user/root/rand/_temporary/_task_200811092030_0001_m_000323_0/part-00323. blk_-8406634885489843927,E22,BLOCK* NameSystem.allocateBlock:<*>
+81109,203605,27,INFO,BLOCK* NameSystem.allocateBlock: /user/root/rand/_temporary/_task_200811092030_0001_m_000332_0/part-00332. blk_-3538845885769016002,E22,BLOCK* NameSystem.allocateBlock:<*>
+81109,203605,29,INFO,BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.251.107.19:50010 is added to blk_6309418393114897475 size 67108864,E26,BLOCK* NameSystem.addStoredBlock: blockMap updated: <*> is added to <*> size <*>
+81109,203605,29,INFO,BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.251.214.130:50010 is added to blk_4386079411548040260 size 67108864,E26,BLOCK* NameSystem.addStoredBlock: blockMap updated: <*> is added to <*> size <*>
+81109,203605,29,INFO,BLOCK* NameSystem.allocateBlock: /user/root/rand/_temporary/_task_200811092030_0001_m_000040_0/part-00040. blk_6830647897035533836,E22,BLOCK* NameSystem.allocateBlock:<*>
+81109,203605,29,INFO,BLOCK* NameSystem.allocateBlock: /user/root/rand/_temporary/_task_200811092030_0001_m_000082_0/part-00082. blk_-416928069220652273,E22,BLOCK* NameSystem.allocateBlock:<*>
+81109,203605,30,INFO,BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.251.106.50:50010 is added to blk_4386079411548040260 size 67108864,E26,BLOCK* NameSystem.addStoredBlock: blockMap updated: <*> is added to <*> size <*>
+81109,203605,30,INFO,BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.251.70.5:50010 is added to blk_-4026330115303607086 size 67108864,E26,BLOCK* NameSystem.addStoredBlock: blockMap updated: <*> is added to <*> size <*>
+81109,203605,31,INFO,BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.251.31.180:50010 is added to blk_8026466674001363449 size 67108864,E26,BLOCK* NameSystem.addStoredBlock: blockMap updated: <*> is added to <*> size <*>
+81109,203605,31,INFO,BLOCK* NameSystem.allocateBlock: /user/root/rand/_temporary/_task_200811092030_0001_m_000065_0/part-00065. blk_-65606802992611431,E22,BLOCK* NameSystem.allocateBlock:<*>
+81109,203605,31,INFO,BLOCK* NameSystem.allocateBlock: /user/root/rand/_temporary/_task_200811092030_0001_m_000271_0/part-00271. blk_-2824064955348406797,E22,BLOCK* NameSystem.allocateBlock:<*>
+81109,203605,31,INFO,BLOCK* NameSystem.allocateBlock: /user/root/rand/_temporary/_task_200811092030_0001_m_000311_0/part-00311. blk_-7430844830306228943,E22,BLOCK* NameSystem.allocateBlock:<*>
+81109,203605,32,INFO,BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.251.193.175:50010 is added to blk_-8515113585876695879 size 67108864,E26,BLOCK* NameSystem.addStoredBlock: blockMap updated: <*> is added to <*> size <*>
