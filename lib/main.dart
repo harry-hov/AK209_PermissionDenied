@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:sih2020/about.dart';
 import 'package:sih2020/showLog.dart';
+import 'package:sih2020/tempTest.dart';
+import 'package:sih2020/testTest.dart';
 
 void main() => runApp(MyApp());
 
@@ -14,8 +16,9 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.teal,
       ),
+      //home: TestTest(),
       home: ShowLog(title: 'Server Logs | Dashboard'),
-      //home: MyHomePage(title: 'Server Logs | Dashboard'),
+      //home: TempTest(title: 'Server Logs | Dashboard'),
     );
   }
 }

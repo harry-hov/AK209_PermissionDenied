@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
 import 'dart:convert';
+import 'dart:async';
 
 import 'package:sih2020/about.dart';
 
@@ -14,11 +15,31 @@ class ShowLog extends StatefulWidget {
 }
 
 class _ShowLogState extends State<ShowLog> {
-  final String apiUrl = "https://api.jsonbin.io/b/5f2695fedddf413f95bac0a3/1";
+  Future<List<dynamic>> _future;
+  @override
+  void initState() {
+    super.initState();
+    setUpTimedFetch();
+  }
+
+  setUpTimedFetch() {
+    Timer.periodic(Duration(milliseconds: 5000), (timer) {
+      setState(() {
+        _future = fetchUsers();
+      });
+    });
+  }
+
+  final String apiUrl = 'https://ba57531582e6.ngrok.io/dummydata';
+  //final String apiUrl = "https://api.jsonbin.io/b/5f2695fedddf413f95bac0a3/1";
 
   Future<List<dynamic>> fetchUsers() async {
     var log = await http.get(apiUrl);
-    return json.decode(log.body)['logs'];
+    if (log.statusCode == 200) {
+      return json.decode(log.body);
+    } else {
+      throw Exception('Failed to load album');
+    }
   }
 
   String _component(dynamic log) {
@@ -26,10 +47,14 @@ class _ShowLogState extends State<ShowLog> {
   }
 
   String _status(dynamic log) {
-    return log['status'].toString();
+    return log['Status'].toString();
   }
 
-  String _pid(Map<dynamic, dynamic> log) {
+  String _server(dynamic log) {
+    return log['Server'].toString();
+  }
+
+  String _pid(Map<String, dynamic> log) {
     return "PID: " + log['Pid'].toString();
   }
 
@@ -57,17 +82,6 @@ class _ShowLogState extends State<ShowLog> {
     return log['EventTemplate'].toString();
   }
 
-  List<String> items = [
-    "Item 1",
-    "Item 2",
-    "Item 3",
-    "Item 4",
-    "Item 5",
-    "Item 6",
-    "Item 7",
-    "Item 8"
-  ];
-
   @override
   Widget build(BuildContext context) {
     final _width = MediaQuery.of(context).size.width;
@@ -77,7 +91,7 @@ class _ShowLogState extends State<ShowLog> {
 
     final headerList = new Expanded(
         child: FutureBuilder<List<dynamic>>(
-            future: fetchUsers(),
+            future: _future,
             builder: (BuildContext context, AsyncSnapshot snapshot) {
               if (snapshot.hasData) {
                 print(_pid(snapshot.data[0]));
@@ -178,7 +192,7 @@ class _ShowLogState extends State<ShowLog> {
                   new Container(height: 70.0, width: _width, child: headerList),
                   new Expanded(
                       child: FutureBuilder<List<dynamic>>(
-                          future: fetchUsers(),
+                          future: _future,
                           builder:
                               (BuildContext context, AsyncSnapshot snapshot) {
                             if (snapshot.hasData) {
@@ -269,6 +283,17 @@ class _ShowLogState extends State<ShowLog> {
                                                     style: new TextStyle(
                                                         fontSize: 12.0,
                                                         color: status_color,
+                                                        fontWeight:
+                                                            FontWeight.normal),
+                                                  ),
+                                                  new Text(
+                                                    "Server: " +
+                                                        _server(snapshot
+                                                            .data[index]),
+                                                    style: new TextStyle(
+                                                        fontSize: 12.0,
+                                                        color:
+                                                            Colors.blueAccent,
                                                         fontWeight:
                                                             FontWeight.normal),
                                                   ),

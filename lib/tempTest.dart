@@ -12,11 +12,11 @@ class TempTest extends StatefulWidget {
 }
 
 class _TempTestState extends State<TempTest> {
-  final String apiUrl = "https://api.jsonbin.io/b/5f2695fedddf413f95bac0a3/1";
+  final String apiUrl = "https://ba57531582e6.ngrok.io/dummydata";
 
   Future<List<dynamic>> fetchUsers() async {
     var log = await http.get(apiUrl);
-    return json.decode(log.body)['logs'];
+    return json.decode(log.body);
   }
 
   String _component(dynamic log) {
