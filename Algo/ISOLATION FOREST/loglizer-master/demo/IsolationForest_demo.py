@@ -2,6 +2,7 @@
 # -*- coding: utf-8 -*-
 
 import sys
+import pickle
 sys.path.append('../')
 from loglizer.models import IsolationForest
 from loglizer import dataloader, preprocessing
@@ -28,4 +29,5 @@ if __name__ == '__main__':
     
     print('Test validation:')
     precision, recall, f1 = model.evaluate(x_test, y_test)
+    pickle.dump(model, open('model.pkl','wb'))
 
