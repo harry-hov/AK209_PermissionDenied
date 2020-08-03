@@ -1,9 +1,4 @@
-# This software is a free software. Thus, it is licensed under GNU General Public License.
-# Python implementation to Smith-Waterman Algorithm for Homework 1 of Bioinformatics class.
-# Forrest Bao, Sept. 26 <http://fsbao.net> <forrest.bao aT gmail.com>
 
-# zeros() was origianlly from NumPy.
-# This version is implemented by alevchuk 2011-04-10
 def zeros(shape):
     retval = []
     for x in range(shape[0]):

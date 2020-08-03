@@ -1,11 +1,4 @@
-"""
-The interface to load log datasets. The datasets currently supported include
-HDFS and BGL.
 
-Authors:
-    LogPAI Team
-
-"""
 
 import pandas as pd
 import os

@@ -1,8 +1,3 @@
-"""
-Description : This file implements the function to evaluation accuracy of log parsing
-Author      : LogPAI team
-License     : MIT
-"""
 
 import sys
 import pandas as pd
@@ -11,20 +6,7 @@ import scipy.misc
 
 
 def evaluate(groundtruth, parsedresult):
-    """ Evaluation function to benchmark log parsing accuracy
-    
-    Arguments
-    ---------
-        groundtruth : str
-            file path of groundtruth structured csv file 
-        parsedresult : str
-            file path of parsed structured csv file
-
-    Returns
-    -------
-        f_measure : float
-        accuracy : float
-    """ 
+   
     df_groundtruth = pd.read_csv(groundtruth)
     df_parsedlog = pd.read_csv(parsedresult)
     # Remove invalid groundtruth event Ids

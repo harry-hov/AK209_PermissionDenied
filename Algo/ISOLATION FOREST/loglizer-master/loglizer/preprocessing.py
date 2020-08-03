@@ -1,11 +1,3 @@
-"""
-The interface for data preprocessing.
-
-Authors:
-    LogPAI Team
-
-"""
-
 
 import pandas as pd
 import os

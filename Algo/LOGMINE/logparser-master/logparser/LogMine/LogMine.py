@@ -1,8 +1,3 @@
-"""
-Description : This file implements the LogMine algorithm for log parsing
-Author      : LogPAI team
-License     : MIT
-"""
 
 import sys
 import regex as re
